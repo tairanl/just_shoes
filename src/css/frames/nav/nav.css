@@ -1,0 +1,56 @@
+nav {
+  box-shadow: 0 0 8px rgb(0 0 0 / 60%);
+  display: block;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 25px;
+  font-weight: 600;
+  /* background: var(--theme-background-color);
+  -webkit-background-clip: text;
+  color: transparent; */
+}
+
+nav .container .navBar ul {
+  display: flex;
+  gap: 50px;
+}
+
+nav .container .navBar a:hover {
+  color: var(--theme-font-color);
+}
+
+nav .container .loginGroup {
+  display: flex;
+  gap: 20px;
+  justify-items: center;
+}
+
+nav .container .loginGroup .signUp {
+  margin: 5px 0;
+  padding: 8px;
+  font-size: 15px;
+}
+
+/* nav .container .loginGroup .signUp:hover {
+  color: var(--theme-font-color);
+  background-color: white;
+} */
+
+nav .container .loginGroup .login {
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
+}
+nav .container .loginGroup .login:hover {
+  color: var(--theme-font-color);
+}

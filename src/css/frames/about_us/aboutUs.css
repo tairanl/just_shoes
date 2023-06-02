@@ -1,0 +1,44 @@
+.aboutUs_section {
+  background-image: url(image/loging_bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutUs {
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.aboutUs p {
+  margin-top: 10px;
+}
+
+.aboutUs h2 {
+  font-size: var(--title-font-size);
+  text-align: center;
+  display: block;
+}
+
+.aboutUs h3 {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.aboutUs .follow_us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.aboutUs .socialApps {
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.aboutUs .socialApps a:hover img {
+  transform: scale(1.1);
+  filter: drop-shadow(rgb(145, 145, 145) 2px 15px 5px);
+  transition: all 0.5s;
+}

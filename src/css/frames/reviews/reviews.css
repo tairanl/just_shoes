@@ -1,0 +1,45 @@
+.reviews {
+  /* height: 100vh; */
+  padding-top: 50px;
+}
+
+.reviews h2 {
+  font-size: var(--title-font-size);
+  text-align: center;
+  display: block;
+}
+
+.reviews .review_box {
+  position: relative;
+  margin-top: 15px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews .review_box .review_btns {
+  position: absolute;
+}
+
+.reviews .review_box .review_btns span {
+  display: inline-block;
+  width: 25px;
+  height: 80px;
+  font-size: 30px;
+  background-color: grey;
+  /* justify-items: center; */
+  text-align: center;
+  /* align-items: center; */
+  line-height: 80px;
+}
+
+.service_box {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews .terms {
+  margin-top: 50px;
+}

@@ -1,0 +1,6 @@
+.font_clips_paint {
+  background: var(--theme-background-color);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}

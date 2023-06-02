@@ -1,0 +1,10 @@
+.btn {
+  background-color: var(--theme-font-color);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--theme-font-color-light);
+}

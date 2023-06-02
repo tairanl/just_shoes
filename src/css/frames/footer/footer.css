@@ -1,0 +1,82 @@
+.footer_box {
+  width: 100%;
+  background: #f3f1f1;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footer_box .footer_tag {
+  /* margin-top: 20px; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer_tag .tap_title {
+  font-size: 22px;
+}
+
+.footer_box .tap_element {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer_box .center {
+  text-align: center;
+}
+
+.footer_box .footer_tag:nth-child(4) .tap_element {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_tag:nth-child(4) .tap_element a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.footer_tag:nth-child(4) .tap_element a::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: var(--theme-background-color);
+  top: 0;
+  left: -90px;
+  z-index: -10;
+  transition: 0.5s;
+}
+
+.footer_tag:nth-child(4) .tap_element a:hover i {
+  color: white;
+}
+
+.footer_tag:nth-child(4) .tap_element a:hover:after {
+  left: 0;
+}
+
+.footer_tag:last-child input {
+  width: 200px;
+  height: 30px;
+  background: white;
+  border-radius: 5px;
+}
+
+.footer_tag:last-child button {
+  padding: 7px;
+  width: fit-content;
+  border: none;
+}
+
+.footer_box a:hover {
+  color: var(--theme-font-color);
+}
