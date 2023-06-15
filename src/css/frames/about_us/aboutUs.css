@@ -1,5 +1,5 @@
 .aboutUs_section {
-  background-image: url(image/loging_bg.png);
+  background-image: url(/public/image/loging_bg.png);
   background-size: cover;
   background-position: center;
 }
