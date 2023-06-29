@@ -5,7 +5,10 @@
     <link rel="icon" type="image/svg+xml" href="/public/image/logshoes.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <script
       src="https://kit.fontawesome.com/3ffb1d1865.js"
       crossorigin="anonymous"
@@ -68,79 +71,45 @@
       <!-- Products -->
       <div class="products container">
         <h2 class="font_clips_paint">Products</h2>
-        <div class="box">
-          <div class="product_card">
-            <div class="product_img">
-              <img src="image/shoes1.png" />
-            </div>
-            <div class="product_info">
-              <h3 class="product_name">NIKE01</h3>
-              <p class="product_description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur elit.
-              </p>
-              <span class="product_price">$100.99</span>
-              <div class="product_ranking">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star-half-stroke"></i>
-              </div>
-              <div class="addCartBtn btn">Add to cart</div>
-              <div class="button_group">
-                <span class="likeBtn"><i class="fa-solid fa-heart"></i></span>
-                <span class="shareBtn"><i class="fa-solid fa-share"></i></span>
-              </div>
-            </div>
-          </div>
-          <div class="product_card"></div>
-          <div class="product_card"></div>
-          <div class="product_card"></div>
-          <div class="product_card"></div>
-          <div class="product_card"></div>
-          <div class="product_card"></div>
-          <div class="product_card"></div>
+        <div class="product_filter">
+          <ul>
+            <li>
+              <a data-index="0" class="btn_filter filter_showAll active"
+                >Show all</a
+              >
+            </li>
+            <li>
+              <a data-index="1" class="btn_filter filter_type">Running</a>
+            </li>
+            <li>
+              <a data-index="2" class="btn_filter filter_type">Basketball</a>
+            </li>
+            <li>
+              <a data-index="3" class="btn_filter filter_type">Football</a>
+            </li>
+            <li>
+              <a data-index="4" class="btn_filter filter_price">Under $100</a>
+            </li>
+            <li>
+              <a data-index="5" class="btn_filter filter_price">$100 - $200</a>
+            </li>
+          </ul>
         </div>
+        <div class="box"></div>
       </div>
       <!-- Reviews -->
       <div class="reviews container">
         <h2 class="font_clips_paint">Customer Reviews</h2>
         <div class="review_box">
-          <div class="review_btns">
-            <span class="left">
-              <i class="fa-solid fa-chevron-left"></i>
-            </span>
-            <span class="right">
-              <i class="fa-solid fa-chevron-right"></i>
-            </span>
+          <!-- Swiper -->
+          <div class="swiper-container">
+            <div class="swiper-wrapper"></div>
           </div>
-          <div class="review_card">
-            <div class="review_card_top">
-              <div class="profile">
-                <div class="profile_img">
-                  <img src="image/girl_dp1.jpg" />
-                </div>
-                <div class="profile_name">
-                  <h3>Maggie</h3>
-                  <div class="review_ranking">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="review_comment">
-              Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
-              Provident sed architecto accusantium modi ipsum , sed et
-              cupiditate nemo voluptatibus at laboriosam!
-            </div>
-          </div>
-          <div class="review_card"></div>
-          <div class="review_card"></div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
 
         <div class="service_box">
@@ -276,6 +245,9 @@
         </div>
       </div>
     </footer>
-    <script type="module" src="/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script type="module" src="/index.js"></script>
   </body>
 </html>

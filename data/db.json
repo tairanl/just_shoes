@@ -1,0 +1,151 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_name": "Universal01",
+      "type": "universal",
+      "product_img": "/image/shoes1.png",
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur elit.",
+      "price": "89.99",
+      "product_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star-half-stroke\"></i>"
+    },
+    {
+      "id": 2,
+      "product_name": "Running01",
+      "type": "running",
+      "product_img": "/image/shoes2.png",
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur elit.",
+      "price": "129.99",
+      "product_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i>"
+    },
+    {
+      "id": 3,
+      "product_name": "Running02",
+      "type": "running",
+      "product_img": "/image/shoes3.png",
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur elit.",
+      "price": "89.99",
+      "product_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-regular fa-star fa-star\"></i><i class=\"fa-regular fa-star fa-star\"></i>"
+    },
+    {
+      "id": 4,
+      "product_name": "Basketball01",
+      "type": "basketball",
+      "product_img": "/image/shoes4.png",
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur elit.",
+      "price": "49.99",
+      "product_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star-half-stroke\"></i>"
+    },
+    {
+      "id": 5,
+      "product_name": "Basketball02",
+      "type": "basketball",
+      "product_img": "/image/shoes5.png",
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur elit.",
+      "price": "59.99",
+      "product_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star-half-stroke\"></i>"
+    },
+    {
+      "id": 6,
+      "product_name": "Basketball03",
+      "type": "basketball",
+      "product_img": "/image/shoes6.png",
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur elit.",
+      "price": "189.99",
+      "product_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-regular fa-star fa-star\"></i>"
+    },
+    {
+      "id": 7,
+      "product_name": "Football01",
+      "type": "football",
+      "product_img": "/image/shoes7.png",
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur elit.",
+      "price": "99.99",
+      "product_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star-half-stroke\"></i>"
+    },
+    {
+      "id": 8,
+      "product_name": "Football02",
+      "type": "football",
+      "product_img": "/image/shoes8.png",
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur elit.",
+      "price": "109.99",
+      "product_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star-half-stroke\"></i>"
+    },
+    {
+      "id": 9,
+      "product_name": "Football03",
+      "type": "football",
+      "product_img": "/image/shoes9.png",
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur elit.",
+      "price": "129.99",
+      "product_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i>"
+    },
+    {
+      "id": 10,
+      "product_name": "Football04",
+      "type": "football",
+      "product_img": "/image/shoes10.png",
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur elit.",
+      "price": "129.99",
+      "product_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star-half-stroke\"></i>"
+    },
+    {
+      "id": 11,
+      "product_name": "Football05",
+      "type": "football",
+      "product_img": "/image/shoes11.png",
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur elit.",
+      "price": "139.99",
+      "product_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-regular fa-star fa-star\"></i>"
+    },
+    {
+      "id": 12,
+      "product_name": "Football06",
+      "type": "football",
+      "product_img": "/image/shoes12.png",
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur elit.",
+      "price": "159.99",
+      "product_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-regular fa-star fa-star\"></i><i class=\"fa-regular fa-star fa-star\"></i>"
+    }
+  ],
+
+  "reviews": [
+    {
+      "review_user_name": "Maggie",
+      "review_user_img": "image/girl_dp1.jpg",
+      "review_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-regular fa-star fa-star\"></i><i class=\"fa-regular fa-star fa-star\"></i>",
+      "review_text": "Lorem ipsum dolor sit amet sed consectetur adipisicing elit.Provident sed architecto accusantium modi ipsum , sed etcupiditate nemo voluptatibus at laboriosam!"
+    },
+    {
+      "review_user_name": "Peter",
+      "review_user_img": "image/man_dp1.jpg",
+      "review_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star-half-stroke\"></i><i class=\"fa-regular fa-star fa-star\"></i>",
+      "review_text": "Lorem ipsum dolor sit amet sed consectetur adipisicing elit.Provident sed architecto accusantium modi ipsum , sed etcupiditate nemo voluptatibus at laboriosam!"
+    },
+    {
+      "review_user_name": "Will",
+      "review_user_img": "image/man_dp2.jpg",
+      "review_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star-half-stroke\"></i>",
+      "review_text": "Lorem ipsum dolor sit amet sed consectetur adipisicing elit.Provident sed architecto accusantium modi ipsum , sed etcupiditate nemo voluptatibus at laboriosam!"
+    },
+    {
+      "review_user_name": "Kate",
+      "review_user_img": "image/girl_dp2.jpg",
+      "review_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i>",
+      "review_text": "Lorem ipsum dolor sit amet sed consectetur adipisicing elit.Provident sed architecto accusantium modi ipsum , sed etcupiditate nemo voluptatibus at laboriosam!"
+    },
+    {
+      "review_user_name": "Kristy",
+      "review_user_img": "image/girl_dp3.jpg",
+      "review_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-regular fa-star fa-star\"></i>",
+      "review_text": "Lorem ipsum dolor sit amet sed consectetur adipisicing elit.Provident sed architecto accusantium modi ipsum , sed etcupiditate nemo voluptatibus at laboriosam!"
+    },
+    {
+      "review_user_name": "Leo",
+      "review_user_img": "image/man_dp3.jpg",
+      "review_ranking": "<i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-solid fa-star\"></i><i class=\"fa-regular fa-star fa-star\"></i><i class=\"fa-regular fa-star fa-star\"></i>",
+      "review_text": "Lorem ipsum dolor sit amet sed consectetur adipisicing elit.Provident sed architecto accusantium modi ipsum , sed etcupiditate nemo voluptatibus at laboriosam!"
+    }
+  ]
+}

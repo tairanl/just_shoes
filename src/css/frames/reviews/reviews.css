@@ -10,28 +10,56 @@
 }
 
 .reviews .review_box {
-  position: relative;
+  /* position: relative; */
   margin-top: 15px;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* flex-flow: wrap; */
+  /* justify-content: center;
+  align-items: center; */
 }
 
-.reviews .review_box .review_btns {
-  position: absolute;
+.review_box {
+  position: relative;
+  width: 65vw;
+  height: 300px;
+  /* background-color: antiquewhite; */
+  margin: 100px auto;
 }
 
-.reviews .review_box .review_btns span {
-  display: inline-block;
-  width: 25px;
-  height: 80px;
-  font-size: 30px;
-  background-color: grey;
-  /* justify-items: center; */
+.review_box > .swiper-container {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.review_box > .swiper-slide {
   text-align: center;
-  /* align-items: center; */
-  line-height: 80px;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  transition: 300ms;
+  transform: scale(0.8);
+}
+.review_box > .swiper-slide-active,
+.review_box > .swiper-slide-duplicate-active {
+  transform: scale(1);
+}
+.review_box > .swiper-button-next,
+.review_box > .swiper-button-prev {
+  color: var(--theme-font-color);
 }
 
 .service_box {
