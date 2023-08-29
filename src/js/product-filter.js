@@ -170,3 +170,11 @@ function render(arr) {
 //     break;
 // }
 // console.log(arr);
+
+const addToCartDom = document.querySelectorAll(".addCartBtn");
+
+addToCartDom.forEach((item) => {
+  item.addEventListener("click", function () {
+    console.log(this.parentNode.querySelector(".product_name"));
+  });
+});

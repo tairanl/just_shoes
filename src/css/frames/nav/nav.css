@@ -41,10 +41,13 @@ nav .container .loginGroup .signUp {
   font-size: 15px;
 }
 
-/* nav .container .loginGroup .signUp:hover {
+nav .container .loginGroup .cart {
+  margin: 5px 0;
+  font-size: 25px;
+}
+nav .container .loginGroup .cart:hover {
   color: var(--theme-font-color);
-  background-color: white;
-} */
+}
 
 nav .container .loginGroup .login {
   line-height: 45px;
