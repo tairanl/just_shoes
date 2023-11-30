@@ -1,5 +1,4 @@
 .products {
-  /* height: 100vh; */
   padding-top: 50px;
 }
 
@@ -18,7 +17,6 @@
 
 .products .product_filter ul {
   display: flex;
-  /* padding: 5px; */
   margin-top: 20px;
   gap: 20px;
 }

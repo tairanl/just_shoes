@@ -15,9 +15,6 @@ nav .container {
 nav .logo {
   font-size: 25px;
   font-weight: 600;
-  /* background: var(--theme-background-color);
-  -webkit-background-clip: text;
-  color: transparent; */
 }
 
 nav .container .navBar ul {

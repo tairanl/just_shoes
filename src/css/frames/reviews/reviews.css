@@ -1,5 +1,4 @@
 .reviews {
-  /* height: 100vh; */
   padding-top: 50px;
 }
 
@@ -9,16 +8,8 @@
   display: block;
 }
 
-.reviews .review_box {
-  /* position: relative; */
-  margin-top: 15px;
-  /* display: flex; */
-  /* flex-flow: wrap; */
-  /* justify-content: center;
-  align-items: center; */
-}
-
 .review_box {
+  margin-top: 15px;
   position: relative;
   width: 65vw;
   max-width: 80%;
@@ -36,8 +27,6 @@
   text-align: center;
   font-size: 18px;
   background: #fff;
-
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;

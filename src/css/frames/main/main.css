@@ -7,23 +7,17 @@
 .main_content {
   display: flex;
   padding-top: 80px;
-
-  /* height: calc(100vh - 50px); */
   height: 100vh;
   overflow: hidden;
 }
 
 .main_content .main_left {
-  /* background: white; */
   margin-top: 50px;
 }
 
 .main_content .main_left h2 {
   font-size: 70px;
   line-height: 70px;
-  /* background: var(--theme-background-color);
-  -webkit-background-clip: text;
-  color: transparent; */
 }
 .main_content .main_left p {
   margin-top: 10px;

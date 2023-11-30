@@ -5,17 +5,9 @@
   border-radius: 10px;
   box-shadow: 0 0 8px #6c14d0;
   text-align: center;
-  /* display: flex;
-  flex-direction: column; */
   padding: 20px 20px;
-  /* align-items: center;
-  justify-content: center; */
 }
 
-.product_card .product_img {
-  /* align-items: center; */
-  /* justify-content: center; */
-}
 .product_card .product_img img {
   width: 150px;
   aspect-ratio: 1/1;

@@ -7,7 +7,6 @@
 }
 
 .footer_box .footer_tag {
-  /* margin-top: 20px; */
   display: flex;
   flex-direction: column;
   gap: 10px;

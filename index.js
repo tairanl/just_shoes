@@ -3,12 +3,10 @@ import "./src/js/product-filter";
 import "./src/js/reviews";
 
 var swiper = new Swiper(".swiper-container", {
-  // autoplay: true,
   autoplay: {
     disableOnInteraction: false,
   },
   slidesPerView: 1,
-  // spaceBetween: 30,
   breakpoints: {
     1500: {
       slidesPerView: 2,

@@ -6,10 +6,6 @@
   --filter-button-color: #bf97ec;
 }
 
-html {
-  /* scroll-behavior: smooth; */
-}
-
 *,
 *::before,
 *::after {
@@ -18,10 +14,6 @@ html {
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-
-  /* font-family: "Poppins", sans-serif; */
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
 }
 
 a:visited {
