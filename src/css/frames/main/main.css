@@ -5,8 +5,7 @@
 }
 
 .main_content {
-  display: grid;
-  grid-template-columns: 40vw 60vw;
+  display: flex;
   padding-top: 80px;
 
   /* height: calc(100vh - 50px); */
@@ -51,5 +50,5 @@
 }
 
 .main_content .main_image img {
-  width: 40vw;
+  height: 80vh;
 }

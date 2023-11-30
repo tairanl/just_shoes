@@ -10,13 +10,10 @@
 }
 
 .products .box {
-  margin-top: 20px;
-  display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
-  grid-gap: 25px;
-  /* justify-items: center; */
-
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  margin-top: 25px;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
 }
 
 .products .product_filter ul {

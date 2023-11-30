@@ -7,9 +7,19 @@ var swiper = new Swiper(".swiper-container", {
   autoplay: {
     disableOnInteraction: false,
   },
-  slidesPerView: 3,
-  spaceBetween: 30,
-  centeredSlides: true,
+  slidesPerView: 1,
+  // spaceBetween: 30,
+  breakpoints: {
+    1500: {
+      slidesPerView: 2,
+      spaceBetween: 5,
+    },
+    2200: {
+      slidesPerView: 3,
+      spaceBetween: 5,
+    },
+  },
+  centeredSlides: false,
   loop: true,
   pagination: {
     el: ".swiper-pagination",

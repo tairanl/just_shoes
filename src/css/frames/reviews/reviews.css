@@ -21,8 +21,8 @@
 .review_box {
   position: relative;
   width: 65vw;
+  max-width: 80%;
   height: 300px;
-  /* background-color: antiquewhite; */
   margin: 100px auto;
 }
 
